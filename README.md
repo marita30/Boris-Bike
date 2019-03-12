@@ -16,7 +16,9 @@ para poder comenzar a desarrollar o desglosar el proyecto primero se necesitaran
 ## Instalacion 🔧
 
 *Una vez instalado ubuntu , pasariamos a descargar los demas componentes a utilizar en este caso serian: Slack, Github, Git, ruby.
-*Teniendo ya todo los componentes descargados pasariamos a la configuracion de cada uno
+
+*Teniendo ya todo los componentes descargados pasariamos a la configuracion de cada uno.
+
 *Ya configurado todo los componentes, estamos listo para comenzar a desglozar nuestro proyecto.
 
 ## Autores ✒️
