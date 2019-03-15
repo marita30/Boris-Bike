@@ -12,11 +12,15 @@ class DockingStation
 	end
 
 	def dock(bike)
-		fail 'Docking station full' if @bikes.count >= 20
+		fail 'Docking station full' if full?
 		@bikes.push(bike)
 	end
 
-	def bike
-		@bikes	
+	def full?
+		@bikes.count >= DEFAULT_CAPACITY
+	end
+
+	def empty?
+		@bikes.empty?
 	end
 end
